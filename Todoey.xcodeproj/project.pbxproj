@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2019ED1221C8954F00FA6536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019ED1121C8954F00FA6536 /* AppDelegate.swift */; };
-		2019ED1421C8954F00FA6536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019ED1321C8954F00FA6536 /* ViewController.swift */; };
-		2019ED1721C8954F00FA6536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2019ED1521C8954F00FA6536 /* Main.storyboard */; };
+		2019ED1421C8954F00FA6536 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019ED1321C8954F00FA6536 /* TodoListViewController.swift */; };
+		2019ED1721C8954F00FA6536 /* Todoey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2019ED1521C8954F00FA6536 /* Todoey.storyboard */; };
 		2019ED1921C8955100FA6536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019ED1821C8955100FA6536 /* Assets.xcassets */; };
 		2019ED1C21C8955100FA6536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2019ED1A21C8955100FA6536 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +17,8 @@
 /* Begin PBXFileReference section */
 		2019ED0E21C8954F00FA6536 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2019ED1121C8954F00FA6536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2019ED1321C8954F00FA6536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2019ED1621C8954F00FA6536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2019ED1321C8954F00FA6536 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		2019ED1621C8954F00FA6536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Todoey.storyboard; sourceTree = "<group>"; };
 		2019ED1821C8955100FA6536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2019ED1B21C8955100FA6536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2019ED1D21C8955100FA6536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				2019ED1121C8954F00FA6536 /* AppDelegate.swift */,
-				2019ED1321C8954F00FA6536 /* ViewController.swift */,
-				2019ED1521C8954F00FA6536 /* Main.storyboard */,
+				2019ED1321C8954F00FA6536 /* TodoListViewController.swift */,
+				2019ED1521C8954F00FA6536 /* Todoey.storyboard */,
 				2019ED1821C8955100FA6536 /* Assets.xcassets */,
 				2019ED1A21C8955100FA6536 /* LaunchScreen.storyboard */,
 				2019ED1D21C8955100FA6536 /* Info.plist */,
@@ -124,7 +124,7 @@
 			files = (
 				2019ED1C21C8955100FA6536 /* LaunchScreen.storyboard in Resources */,
 				2019ED1921C8955100FA6536 /* Assets.xcassets in Resources */,
-				2019ED1721C8954F00FA6536 /* Main.storyboard in Resources */,
+				2019ED1721C8954F00FA6536 /* Todoey.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2019ED1421C8954F00FA6536 /* ViewController.swift in Sources */,
+				2019ED1421C8954F00FA6536 /* TodoListViewController.swift in Sources */,
 				2019ED1221C8954F00FA6536 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,12 +143,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2019ED1521C8954F00FA6536 /* Main.storyboard */ = {
+		2019ED1521C8954F00FA6536 /* Todoey.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2019ED1621C8954F00FA6536 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Todoey.storyboard;
 			sourceTree = "<group>";
 		};
 		2019ED1A21C8955100FA6536 /* LaunchScreen.storyboard */ = {
